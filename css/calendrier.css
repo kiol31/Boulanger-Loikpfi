@@ -1,0 +1,71 @@
+.title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+    margin:auto;
+}
+
+.yearTitle {
+    font-size: 3em;
+}
+
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.months {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.month {
+    flex: 1;
+    border-radius: 5px;
+    border: 1px solid rgb(172, 30, 30);
+    min-width: 290px;
+}
+
+.monthTitle {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.6em;
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.daysOfWeek {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+.daysOfWeek div {
+    text-align: right;
+    width: 35px;
+}
+
+.daysContainer {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+.daysContainer div {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 35px;
+    height: 26px;
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 9px;
+}
+
+.holiday {
+    background-color: rgb(116, 4, 215);
+    border-radius: 8px;
+    cursor: pointer;
+}

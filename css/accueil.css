@@ -1,0 +1,45 @@
+.titre {
+    background-color: aqua;
+    width: 100%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+}
+.sections {
+    display: flex;
+    gap:8px;
+}
+
+.colonne {
+    flex: 1;
+    padding:4px;
+}
+
+.large {
+    flex:2;
+}
+
+.colonne p {
+    text-align: justify;
+    margin-bottom: 12px;
+}
+.image {
+    width: 100%;
+}
+
+.imageBlock {
+    width:100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media screen and (max-width:836px) {
+    .sections {
+        display: block;
+    }
+}
